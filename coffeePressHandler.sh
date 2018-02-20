@@ -24,7 +24,7 @@ case $quadId in
 
 esac
 
-beverages=("Cappuccino" "Americano" "Mocha" "Macchiato" "Espresso" "Latte" "EspressoConPanna" "Summer-Dream" )
+beverages=("Cappuccino" "Americano" "Mocha" "Macchiato" "Espresso" "Latte" "Coffee" "Other" )
 beverageClass="Hot Beverages"
 
 # beverages=("Red Wine" "White Wine" "Gin & Tonic" "Vodka & Tonic" "Beer" "Bourbon/Whisk(e)y" "Pop/Soda/Coke" "Other")
