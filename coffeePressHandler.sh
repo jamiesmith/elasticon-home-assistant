@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ -f ~/secrets.env ]
+then
+    source ~/secrets.env
+fi
 BUTTONS_PER_CONTROLLER=4
 
 entityId="$1"
