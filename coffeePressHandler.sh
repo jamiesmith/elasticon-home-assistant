@@ -1,8 +1,11 @@
 #!/bin/bash
 
-if [ -f ~/secrets.env ]
+if [ -z "${COFFEE_PRESS_HOSTS}" ]
 then
-    source ~/secrets.env
+    if [ -f ~/secrets.env ]
+    then
+	source ~/secrets.env
+    fi
 fi
 BUTTONS_PER_CONTROLLER=4
 
